@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/fish: config/fish
+    ~/.config/awesome: config/awesome
+    ~/.vimrc:
+    ~/.bashrc:
+    ~/.bash_profile:
